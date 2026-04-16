@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { MessageCircle, Palette, Wallet, MapPin, Clock } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5511945793025";
+const WHATSAPP_LINK = "https://wa.me/5511945793025?text=Ol%C3%A1%2C%20vim%20do%20an%C3%BAncio%20e%20gostaria%20de%20falar%20com%20o%20consultor";
 const WHATSAPP_TEXT = "Falar com nosso consultor no WhatsApp";
 
 export default function Home() {
