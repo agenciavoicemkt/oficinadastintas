@@ -34,8 +34,8 @@ export default function Home() {
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 bg-brand-whatsapp hover:bg-brand-whatsapp-hover text-white font-semibold py-2.5 px-5 rounded-full transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
           >
-            <MessageCircle className="w-5 h-5" />
-            <span>Fale Conosco</span>
+            <MessageCircle className="w-5 h-5 pointer-events-none" />
+            <span className="pointer-events-none">Fale Conosco</span>
           </Link>
         </div>
       </header>
@@ -64,8 +64,8 @@ export default function Home() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-3 bg-brand-coral hover:bg-brand-coral-hover text-white font-bold text-lg py-4 px-8 rounded-full shadow-[0_0_20px_rgba(229,83,0,0.3)] hover:shadow-[0_0_30px_rgba(229,83,0,0.5)] transition-all transform hover:-translate-y-1"
             >
-              <MessageCircle className="w-6 h-6" />
-              <span>{WHATSAPP_TEXT}</span>
+              <MessageCircle className="w-6 h-6 pointer-events-none" />
+              <span className="pointer-events-none">{WHATSAPP_TEXT}</span>
             </Link>
           </div>
           
@@ -176,8 +176,8 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-transparent border-2 border-brand-coral text-brand-coral hover:bg-brand-coral hover:text-white font-bold py-3 px-6 rounded-full transition-all"
                 >
-                  <MessageCircle className="w-5 h-5" />
-                  <span>Enviar Mensagem</span>
+                  <MessageCircle className="w-5 h-5 pointer-events-none" />
+                  <span className="pointer-events-none">Enviar Mensagem</span>
                 </Link>
               </div>
             </div>
@@ -243,7 +243,7 @@ export default function Home() {
         className="fixed bottom-6 right-6 z-50 bg-brand-whatsapp text-white p-4 rounded-full shadow-[0_4px_14px_0_rgba(37,211,102,0.5)] hover:shadow-[0_6px_20px_rgba(37,211,102,0.7)] hover:scale-110 transition-all duration-300 md:hidden flex items-center justify-center animate-bounce"
         aria-label="Falar conosco no WhatsApp"
       >
-        <MessageCircle className="w-8 h-8" />
+        <MessageCircle className="w-8 h-8 pointer-events-none" />
       </Link>
     </main>
   );
